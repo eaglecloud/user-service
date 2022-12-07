@@ -1,0 +1,17 @@
+{
+    "name": "eaglecloud/user-service",
+    "require": {
+        "laravel/framework": "^9.19"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eaglecloud\\UserService\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lark",
+            "email": "j.chuanlin@foxmail.com"
+        }
+    ]
+}
