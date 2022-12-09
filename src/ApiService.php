@@ -11,9 +11,9 @@ class ApiService
 
     public function request($method, $path, $data = [])
     {
-        $response = $this->getRequest($method, $path, $data = []);
+        $response = $this->getRequest($method, $path, $data);
 
-        if ($response->ok()) {
+        if ($response->successful()) {
             return $response->json();
         }
 
